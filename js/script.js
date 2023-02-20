@@ -8,12 +8,12 @@
 
   toggleTheme.addEventListener('click', () => {
     if (toggleTheme.classList.contains('i-dark')){
-      imgl.src = "/img/regisd.svg"
+      imgl.src = "img/regisd.svg"
       toggleTheme.classList.add('i-light')
       toggleTheme.classList.remove('i-dark')      
       document.documentElement.setAttribute('data-bs-theme', 'dark')
     }else{
-      imgl.src = "/img/regis.svg"
+      imgl.src = "img/regis.svg"
       toggleTheme.classList.add('i-dark')
       toggleTheme.classList.remove('i-light')      
       document.documentElement.setAttribute('data-bs-theme', 'light')
